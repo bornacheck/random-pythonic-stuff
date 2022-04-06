@@ -1,10 +1,5 @@
-from Tkinter import *
-try:
-	from Tkinter import ttk as TTk
-except ImportError:
-	print('cant import ttk from Tkinter')
-	while True:
-		pass
+from tkinter import *
+from tkinter import ttk as TTk
 tk = Tk()
 tk.title('Tkinter Widget Testing (for Tkinter Editor)')
 tk.geometry('640x480')
