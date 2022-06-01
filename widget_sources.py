@@ -3,6 +3,8 @@ from tkinter import ttk as TTk
 tk = Tk()
 tk.title('Tkinter Widget Testing (for Tkinter Editor)')
 tk.geometry('640x480')
+c = Canvas(width=640, height=480, highlightthickness=0)
+c.pack()
 off_var = BooleanVar()
 on_var = BooleanVar()
 off_var.set(False)
